@@ -1,0 +1,13 @@
+.menu-email{
+	width: 60%;
+	height: 25rem;
+	border: 2px solid;
+	background-color: brown; 
+	margin-top: 2px;
+}
+.menu-email .aa{
+	margin-left: 3rem;
+}
+.menu-email .objet{
+	margin-left: 2rem;
+}

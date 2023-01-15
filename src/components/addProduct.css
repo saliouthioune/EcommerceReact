@@ -1,0 +1,34 @@
+.row{
+	display: flex;
+    margin-top: 5px;
+}
+.row .forms{
+	width: 60%;
+	border: 2px solid;
+	border-radius:3px 3px 3px 3px; 
+}
+.row .container-text{
+	width: 39%;
+	border: 2px solid;
+	margin-left: 2px;
+	border-radius:3px 3px 3px 3px; 
+}
+.row .container-text .btn{
+	margin-top: 5px
+
+}
+.menu{
+	height: 5rem;
+	width: 100%;
+	background-color:brown; 
+}
+.menu ul{
+	list-style: none;
+
+}
+.menu ul li{
+	text-decoration: none;
+	display: inline;
+	margin:5px;
+	color: white; 
+}

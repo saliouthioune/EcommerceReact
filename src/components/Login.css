@@ -1,0 +1,108 @@
+.menu-hori{
+    height: 5rem;
+    width: 100%;
+    background-color: brown;
+}
+.menu-hori ul{
+    list-style: none;
+    display: flex;
+}
+.menu-hori ul li{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 2px;
+}
+.menu-hori ul li a:hover{
+    background-color: gray;
+}
+.menu-hori p{
+    color: wheat;
+    animation: 8s infinite  paragraphe;
+}
+@keyframes paragraphe{
+    from {
+        margin-left: 100%;
+        width: 100%;
+        box-shadow:10px;
+    }
+
+    to {
+        margin-left: 0%;
+        box-shadow:10px;
+        width: 100%;
+    }
+}
+.sectionmvt{
+    height: 21rem;
+    margin-top: 2px;
+    display: flex;
+}
+.forms{
+    border: 3px solid;
+     height: 100%;
+     width: 40%;
+     border-radius: 8px 8px 8px 8px;
+}
+.forms form h1{
+    text-align: center;
+    background-color:brown;
+
+}
+.forms form .email{
+  display: flex;
+  padding: 8px;
+}
+.forms form .email input{
+  margin-left: 2px;
+}
+.forms form  .btn{
+    margin-left: 30vh;
+    width: 6rem;
+    margin-top: 4vh;
+    background-color:brown;
+    color: black;
+}
+.divider{
+  height: 100%;
+  width: 8%;
+  border: 3px solid;
+  margin-left: 5px;
+  background-color: #29150e;
+  background-blend-mode: normal;
+  opacity: 0.3;
+  animation: divider 1s infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes divider{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}    
+.card-image{
+  border: 3px solid;
+     height: 100%;
+     width: 55%;
+     border-radius: 8px 8px 8px 8px;
+     margin-left: 5px;
+}
+.card-image .image{
+  width: 100%;
+  height: 100%;
+}
+.description{
+  margin-top: 2px;
+  height: 10rem;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  border:2px solid;
+}
+.footer{
+    height: 5rem;
+    width: 100%;
+    background-color: brown;
+    margin-top: 1px;
+}
